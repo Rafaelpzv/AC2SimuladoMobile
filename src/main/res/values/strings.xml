@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Gerenciador de Filmes e Séries</string>
+
+    <string name="filtro_tipo">Filtrar por tipo</string>
+    <string name="todos_os_tipos">Todos os tipos</string>
+    <string name="somente_assistidos">Mostrar apenas assistidos</string>
+    <string name="adicionar">Adicionar filme ou série</string>
+    <string name="nenhum_titulo">Nenhum título encontrado.</string>
+
+    <string name="nome">Nome</string>
+    <string name="tipo">Tipo</string>
+    <string name="genero">Gênero</string>
+    <string name="ano">Ano de lançamento</string>
+    <string name="nota">Nota pessoal (0 a 10)</string>
+    <string name="ja_assisti">Já assisti</string>
+    <string name="salvar">Salvar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="salvando">Salvando...</string>
+    <string name="novo_titulo">Cadastrar título</string>
+    <string name="editar_titulo">Editar título</string>
+
+    <string name="selecione_tipo">Selecione o tipo</string>
+    <string name="selecione_genero">Selecione o gênero</string>
+
+    <string name="erro_nome">Informe o nome.</string>
+    <string name="erro_tipo">Selecione o tipo.</string>
+    <string name="erro_genero">Selecione o gênero.</string>
+    <string name="erro_ano">Informe um ano válido.</string>
+    <string name="erro_nota">Informe uma nota entre 0 e 10.</string>
+
+    <string name="salvo">Título salvo.</string>
+    <string name="atualizado">Título atualizado.</string>
+    <string name="excluido">“%1$s” foi excluído.</string>
+    <string name="erro_salvar">Não foi possível salvar. Verifique a conexão e as regras do Firestore.</string>
+    <string name="erro_carregar">Não foi possível carregar os títulos.</string>
+    <string name="erro_excluir">Não foi possível excluir.</string>
+
+    <string name="confirmar_exclusao_titulo">Excluir título</string>
+    <string name="confirmar_exclusao_mensagem">Deseja excluir “%1$s”?</string>
+    <string name="excluir">Excluir</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="assistido">Assistido</string>
+    <string name="nao_assistido">Não assistido</string>
+    <string name="info_filme">%1$s • %2$s • %3$d • Nota: %4$s • %5$s</string>
+
+    <string-array name="tipos">
+        <item>Filme</item>
+        <item>Série</item>
+        <item>Documentário</item>
+        <item>Animação</item>
+    </string-array>
+
+    <string-array name="generos">
+        <item>Ação</item>
+        <item>Comédia</item>
+        <item>Drama</item>
+        <item>Terror</item>
+        <item>Ficção Científica</item>
+    </string-array>
+</resources>
